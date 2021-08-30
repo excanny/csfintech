@@ -1,0 +1,7 @@
+apps:
+  - name: sagecloud-worker
+    script: artisan
+    interpreter: php
+    instances: 1
+    args:
+      - schedule:run
